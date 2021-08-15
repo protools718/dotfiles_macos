@@ -14,5 +14,10 @@
     - ~/Work
     - ~/Dev/python_scripts
 
-#- shell:
+- shell:
 #  - [git submodule update --init --recursive, Installing submodules]
+    - sleep 5
+    -
+      command: ./test.zsh
+      stdout: true
+      stderr: true
