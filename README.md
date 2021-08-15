@@ -2,3 +2,14 @@
 My current dotfiles configuration
 
 I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
+
+## TODO
+- Terminal Preferences
+- Changed Shell to ZSH
+- Dock Preferences
+- Mission Control Preferences (ie don't rearrange spaces)
+- Finder Show Path and Status Bar
+- Trackpad (Three Finger Drag and Tap to Click)
+- .zshrc
+- Git (config and SSH)
+- Neovim config
