@@ -13,3 +13,4 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 - .zshrc
 - Git (config and SSH)
 - Neovim config
+- Homebrew Install
