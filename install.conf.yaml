@@ -15,9 +15,7 @@
     - ~/Dev/python_scripts
 
 - shell:
-#  - [git submodule update --init --recursive, Installing submodules]
-    - sleep 5
     -
-      command: ./test.zsh
+      command: ./setup_homebrew.zsh
       stdout: true
       stderr: true
