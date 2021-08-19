@@ -13,3 +13,4 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 - Git (config and SSH)
 - Neovim/vim config
 - Alfred (turn off Spotlight shortcut and use for Alfred)
+- Snappy (turn off cmd+shift+4 for screenshots ans use for Snappy)
