@@ -11,12 +11,12 @@
     ~/.config/bat:
       create: true
       path: config/bat
-#    ~/.vim: vim
-#    ~/.vimrc: vimrc
+    ~/.vimrc: 
 
 - create:
     - ~/Work
     - ~/Dev/python_scripts
+
 
 - shell:
     - command: ./setup_homebrew.zsh
