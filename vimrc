@@ -59,6 +59,7 @@ Plug 'tpope/vim-surround'                " Modify surrounding quotes/tags
 Plug 'preservim/nerdtree'				 " Nerdtree
 Plug 'Xuyuanp/nerdtree-git-plugin'		 " Nerdtree git plugin
 Plug 'tpope/vim-fugitive'                " git wrapper
+" Plug 'edkolev/tmuxline.vim'              " Enables airline in tmux
 
 call plug#end()
 
