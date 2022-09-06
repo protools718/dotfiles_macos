@@ -1,6 +1,7 @@
 tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -30,6 +31,8 @@ brew "node"
 brew "ranger"
 # Extremely fast tool to remove dupes and other lint from your filesystem
 brew "rmlint"
+# Cross-shell prompt for astronauts
+brew "starship"
 # Terminal multiplexer
 brew "tmux"
 # Vi 'workalike' with many additional features
@@ -42,10 +45,14 @@ brew "eth-p/software/bat-extras"
 cask "alfred"
 # Automatic tiling window manager similar to xmonad
 cask "amethyst"
+cask "font-fira-code"
+cask "font-hack-nerd-font"
 # Git client focusing on productivity
 cask "gitkraken"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Command-line shell and scripting language
+cask "powershell"
 # Open-source code editor
 cask "visual-studio-code"
 mas "Be Focused Pro", id: 961632517

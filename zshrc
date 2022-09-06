@@ -42,3 +42,8 @@ function mkcd() {
 # Use ZSH Plugins
 
 # ...And Other Surprises
+
+# Init for starship
+eval "$(starship init zsh)"
+
+
