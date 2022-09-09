@@ -1,5 +1,4 @@
 
-echo 'Hello from .zshrc'
 
 
 # Set Variables
