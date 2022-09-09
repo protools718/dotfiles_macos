@@ -46,4 +46,5 @@ function mkcd() {
 # Init for starship
 eval "$(starship init zsh)"
 
+neofetch
 
