@@ -93,5 +93,6 @@ PROMPT='$THEME_PROMPT_PREFIX%f%B%F{240}%1~%f%b %(?.%F{green}$THEME_VI_MODE_SYMBO
 # Init for starship
 eval "$(starship init zsh)"
 
+# launch neofetch when launching cli
 neofetch
 
