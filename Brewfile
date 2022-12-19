@@ -59,7 +59,5 @@ mas "Be Focused Pro", id: 961632517
 mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To Do", id: 1274495053
-mas "Snappy", id: 512617038
-mas "Twitter", id: 1482454543
 mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835
