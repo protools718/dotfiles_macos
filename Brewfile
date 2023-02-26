@@ -31,8 +31,6 @@ brew "node"
 brew "ranger"
 # Extremely fast tool to remove dupes and other lint from your filesystem
 brew "rmlint"
-# Cross-shell prompt for astronauts
-brew "starship"
 # Terminal multiplexer
 brew "tmux"
 # Vi 'workalike' with many additional features
