@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "microsoft/git"
 tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -50,6 +51,7 @@ cask "amethyst"
 cask "font-fira-code"
 # Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
+cask "git-credential-manager-core"
 # Git client focusing on productivity
 cask "gitkraken"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -72,5 +74,6 @@ mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To Do", id: 1274495053
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Slack", id: 803453959
 mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835
