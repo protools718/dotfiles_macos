@@ -19,8 +19,8 @@ export PREFIX="$N_PREFIX"
 # Change ZSH Options
 
 # Create Aliases
-alias ll='exa -laFh --git'
-alias exa='exa -laFh --git'
+alias ll='eza -lah --git'
+alias eza='eza -lah --git'
 alias man=batman
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
@@ -103,9 +103,7 @@ TRAPINT() {
 # launch neofetch when launching cli
 neofetch
 
-# enable Powerlevel10k theme
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
