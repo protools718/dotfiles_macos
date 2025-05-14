@@ -1,16 +1,16 @@
 tap "eth-p/software"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-fonts"
-tap "homebrew/core"
+tap "jesseduffield/lazygit"
 tap "microsoft/git"
 tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
-# Modern replacement for 'ls'
-brew "exa"
+# Modern, maintained replacement for ls
+brew "eza"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Improved top (interactive process viewer)
 brew "htop"
 # User-friendly cURL replacement (command-line HTTP client)
@@ -27,10 +27,18 @@ brew "nano"
 brew "ncdu"
 # Fast, highly customisable system info script
 brew "neofetch"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Platform built on V8 to build network applications
 brew "node"
+# Theme for zsh
+brew "powerlevel10k"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
 # File browser
 brew "ranger"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Extremely fast tool to remove dupes and other lint from your filesystem
 brew "rmlint"
 # Terminal multiplexer
@@ -41,17 +49,20 @@ brew "vim"
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
-# A Zsh Theme
-brew "romkatv/powerlevel10k/powerlevel10k"
+# A simple terminal UI for git commands, written in Go
+brew "jesseduffield/lazygit/lazygit"
+# Menu bar tool to limit maximum charging percentage
+cask "aldente"
 # Application launcher and productivity software
 cask "alfred"
 # Automatic tiling window manager similar to xmonad
 cask "amethyst"
-# Free monospaced font with programming ligatures
 cask "font-fira-code"
-# Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
-cask "git-credential-manager-core"
+# Cross-platform Git credential storage for multiple hosting providers
+cask "git-credential-manager"
+# Cross-platform Git credential storage for multiple hosting providers
+cask "git-credential-manager"
 # Git client focusing on productivity
 cask "gitkraken"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -66,14 +77,24 @@ cask "shottr"
 cask "spotify"
 # Open-source code editor
 cask "visual-studio-code"
+mas "1Password for Safari", id: 1569813296
+mas "Apple Configurator", id: 1037126344
 mas "Be Focused Pro", id: 961632517
-mas "GarageBand", id: 682658836
 mas "Hidden Bar", id: 1452453066
 mas "Keynote", id: 409183694
-mas "Microsoft Remote Desktop", id: 1295203466
+mas "LastPass", id: 926036361
 mas "Microsoft To Do", id: 1274495053
+mas "MPlayerX", id: 421131143
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Slack", id: 803453959
-mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835
+vscode "eamodio.gitlens"
+vscode "mechatroner.rainbow-csv"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
