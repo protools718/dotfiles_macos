@@ -1,8 +1,3 @@
-tap "eth-p/software"
-tap "homebrew/bundle"
-tap "jesseduffield/lazygit"
-tap "microsoft/git"
-tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
@@ -61,8 +56,6 @@ cask "font-fira-code"
 cask "font-hack-nerd-font"
 # Cross-platform Git credential storage for multiple hosting providers
 cask "git-credential-manager"
-# Cross-platform Git credential storage for multiple hosting providers
-cask "git-credential-manager"
 # Git client focusing on productivity
 cask "gitkraken"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -82,8 +75,6 @@ mas "Apple Configurator", id: 1037126344
 mas "Be Focused Pro", id: 961632517
 mas "Hidden Bar", id: 1452453066
 mas "Keynote", id: 409183694
-mas "LastPass", id: 926036361
-mas "Microsoft To Do", id: 1274495053
 mas "MPlayerX", id: 421131143
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
