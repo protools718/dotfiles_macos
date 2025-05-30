@@ -93,7 +93,8 @@ TRAPINT() {
 
 #PROMPT='$THEME_PROMPT_PREFIX%f%B%F{240}%1~%f%b %(?.%F{green}$THEME_VI_MODE_SYMBOL.%F{red}$THEME_VI_MODE_SYMBOL) '
 
-
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
 
 
 # Source correct path for p10k based on CPU architecture
