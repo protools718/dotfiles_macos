@@ -96,6 +96,15 @@ TRAPINT() {
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
 
+# Shell wrapper for yazi
+# https://yazi-rs.github.io/docs/quick-start#shell-wrapper
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
 
 # Source correct path for p10k based on CPU architecture
 if [ "$(uname -m)" = "x86_64" ]; then
