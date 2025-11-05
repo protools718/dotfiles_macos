@@ -114,6 +114,9 @@ map <Leader>tk <C-w>t<C-w>K
 " set binary
 " set noeol
 " commenting these lines as I suspect this might conflict with other settings
+" Enaset rtp+=/opt/homebrew/opt/fzfset rtp+=/opt/homebrew/opt/fzfset rtp+=/opt/homebrew/opt/fzfbale fzf
+set rtp+=/opt/homebrew/opt/fzf
+
 
 " Toggles between absolute and hybrid line numbers
 augroup numbertoggle
